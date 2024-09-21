@@ -1,0 +1,103 @@
+body{
+  font-family: Calibri, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginbox{
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.websitelogo{
+  width: 200px;
+}
+
+.email-input{
+  margin-top: 25px;
+  display: block;
+  padding: 10px;
+  outline: none;
+  border: rgb(185, 185, 185) 1.5px solid;
+  font-size: 15px;
+  width: 225px;
+
+  margin-bottom: 10px;
+}
+
+.email-input:focus{
+  outline: none;
+}
+
+.password-input{
+  display: block;
+  padding: 10px;
+  border: rgb(185, 185, 185) 1.5px solid;
+  font-size: 15px;
+  width: 225px;
+  margin-bottom: 5px;
+}
+
+.password-input:focus{
+  outline: none;
+}
+
+.login-button{
+  display: block;
+  background-color: white;
+  border: dodgerblue 2px solid;
+  color: dodgerblue;
+  padding: 10px;
+  font-size: 15px;
+  width: 250px;
+
+  margin-top: 5px;
+
+  transition: background-color .5s, color .5s;
+  cursor: pointer;
+
+}
+
+.login-button:hover{
+  background-color: dodgerblue;
+  color: white;
+}
+
+.forgot-password-link{
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(30, 41, 255);
+
+  transition: opacity .3s;
+}
+
+.forgot-password-link:hover{
+  opacity: .7;
+  text-decoration: underline;
+}
+
+.sign-up-link{
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(30, 41, 255);
+
+  transition: opacity .3s;
+}
+
+.sign-up-link:hover{
+  opacity: .7;
+  text-decoration: underline;
+}
+
+footer{
+  border: rgb(161, 161, 161) 3px solid;
+  padding: 10px;
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+}

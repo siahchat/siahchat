@@ -1,0 +1,32 @@
+.google-search{
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.google-search img{
+display: block;
+width: 150px;
+margin-bottom: 10px;
+cursor: pointer;
+}
+
+.google-search img:hover{
+  opacity: .7;
+}
+
+.google-search input{
+  padding: 15px;
+  border-radius: 30px;
+  width: 500px;
+  border: lightgray solid 1.5px;
+  /* horizontal vertical blur color */
+  box-shadow: 3px 3px 5px lightslategray;
+  font-size: 15px;
+}
+
+.google-search input:focus{
+  outline: none;
+}

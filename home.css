@@ -184,4 +184,5 @@ body{
 .feed-element{
   display: block;
   width: 400px;
+  border-radius: 20px;
 }

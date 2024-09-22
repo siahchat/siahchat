@@ -1,0 +1,186 @@
+body{
+  font-family: Calibri, sans-serif;
+}
+
+.sidebar-icon{
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.websitelogo{
+  width: 190px;
+  padding: 10px;
+  background-color: rgb(255, 217, 0);
+  border-radius: 20px;
+}
+
+.logobox{
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+.inner-sidebar-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar-button{
+  width:fit-content;
+  display: block;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+
+  text-align: left;
+
+  transition: background-color .3s;
+}
+
+.pfp{
+  border-radius: 1000000px; 
+  /* try and see if theres another way to make infinite round */
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  object-position: center;
+  margin-right: 10px;
+}
+
+.suggested-friends{
+  width:fit-content;
+  display: block;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  background: transparent;
+  border: none;
+
+  text-align: left;
+}
+
+.sidebar-button:hover{
+  background-color: lightgrey;
+}
+
+.sidebar-button:active{
+  font-weight: bold;
+}
+
+/* LEFT SIDEBAR */
+
+.left-outer-sidebar{
+  vertical-align: top;
+  padding-top: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  height: 100vh;
+  border: 1.5px solid lightslategray;
+  width: 400px;
+}
+
+.left-center-sidebar{
+  vertical-align: top;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-inner-sidebar{
+  vertical-align: top;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+
+/* RIGHT SIDEBAR */
+.right-outer-sidebar{
+  vertical-align: top;
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: inline-block;
+  height: 100vh;
+  border: 1.5px solid lightslategray;
+  width: 400px;
+}
+
+.right-center-sidebar{
+  vertical-align: top;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-inner-sidebar{
+  vertical-align: top;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+/* SIDEBAR BUTTONS */
+
+#sidebar-logout-button{
+  color: rgb(210, 13, 13);
+}
+
+/* SIDEBAR SUGGESTED FRIENDS */
+
+.friends-sidebar-button{
+  width:fit-content;
+  display: block;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 20px;
+
+  background: transparent;
+
+
+  border: none;
+  cursor: pointer;
+
+  text-align: left;
+
+  transition: background-color .3s;
+}
+
+.friends-sidebar-button:hover{
+  background-color: lightgrey;
+}
+
+.inner-friends-sidebar-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.suggested-friends-p{
+  font-size: 20px;
+}
+
+.feed{
+  vertical-align: top;
+  padding-top: 50px;
+  position: absolute;
+  top: 0;
+  margin-left: 40%;
+  margin-right: 40%;
+  display: inline-block;
+}
+
+.feed{
+  display: inline-block;
+}
+
+.feed-element{
+  display: block;
+}
